@@ -168,7 +168,7 @@ def export_csv(df):
     """
     pandas_df = df.toPandas()
     csv_buffer = io.StringIO()
-    pandas_df.to_csv(csv_buffer, index=False)
+    pandas_df.to_csv(csv_buffer, index=False, sep=';')
     headers = {
         'Content-Type': 'text/csv',
         'Content-Disposition': 'attachment; filename=data.csv'
