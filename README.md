@@ -1,6 +1,6 @@
-# Project Name
+# GitHub Followers Information
 
-This project retrieves GitHub user followers' data using a Flask API and Apache Spark.
+This project retrieves GitHub user followers data using Flask API and Apache Spark.
 
 ## Installation
 
@@ -49,4 +49,4 @@ This project retrieves GitHub user followers' data using a Flask API and Apache 
 
    Replace `daniellidio` with the desired GitHub username.
 
-4. The API will return a CSV file containing the cleaned data of the user's followers.
+4. The API will return a CSV as response containing the cleaned data of the user's followers.
